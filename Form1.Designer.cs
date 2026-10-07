@@ -31,6 +31,7 @@
             this.listToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.coleçõesArrayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.classesListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listagemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +52,8 @@
             this.arrayBidimensionalToolStripMenuItem,
             this.listToolStripMenuItem,
             this.coleçõesArrayToolStripMenuItem,
-            this.classesListToolStripMenuItem});
+            this.classesListToolStripMenuItem,
+            this.listagemToolStripMenuItem});
             this.coleçõesToolStripMenuItem.Name = "coleçõesToolStripMenuItem";
             this.coleçõesToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.coleçõesToolStripMenuItem.Text = "Coleções";
@@ -91,6 +93,13 @@
             this.classesListToolStripMenuItem.Text = "Classes List";
             this.classesListToolStripMenuItem.Click += new System.EventHandler(this.classesListToolStripMenuItem_Click);
             // 
+            // listagemToolStripMenuItem
+            // 
+            this.listagemToolStripMenuItem.Name = "listagemToolStripMenuItem";
+            this.listagemToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listagemToolStripMenuItem.Text = "Listagem";
+            this.listagemToolStripMenuItem.Click += new System.EventHandler(this.listagemToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -119,6 +128,7 @@
         private System.Windows.Forms.ToolStripMenuItem listToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem coleçõesArrayToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem classesListToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listagemToolStripMenuItem;
     }
 }
 

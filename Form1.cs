@@ -37,5 +37,10 @@ namespace CursoCSharpWindowsForm
         {
             CursoCSharpWindowsForm.Colecoes.ClassesList.Executar();
         }
+
+        private void listagemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CursoCSharpWindowsForm.Colecoes.Listagem.Executar();
+        }
     }
 }

@@ -51,6 +51,7 @@
     <Compile Include="Colecoes\ClassesList.cs" />
     <Compile Include="Colecoes\ColecoesArrayList.cs" />
     <Compile Include="Colecoes\ColecoesList.cs" />
+    <Compile Include="Colecoes\Listagem.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
