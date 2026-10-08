@@ -51,6 +51,9 @@
     <Compile Include="Colecoes\ClassesList.cs" />
     <Compile Include="Colecoes\ColecoesArrayList.cs" />
     <Compile Include="Colecoes\ColecoesList.cs" />
+    <Compile Include="Colecoes\ColecoesQueue.cs" />
+    <Compile Include="Colecoes\ColecoesQueue2.cs" />
+    <Compile Include="Colecoes\ColecoesStack.cs" />
     <Compile Include="Colecoes\Listagem.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

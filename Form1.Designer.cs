@@ -32,6 +32,9 @@
             this.coleçõesArrayToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.classesListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listagemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.filasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.coleçõesQueue2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.coleçõesStackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +56,10 @@
             this.listToolStripMenuItem,
             this.coleçõesArrayToolStripMenuItem,
             this.classesListToolStripMenuItem,
-            this.listagemToolStripMenuItem});
+            this.listagemToolStripMenuItem,
+            this.filasToolStripMenuItem,
+            this.coleçõesQueue2ToolStripMenuItem,
+            this.coleçõesStackToolStripMenuItem});
             this.coleçõesToolStripMenuItem.Name = "coleçõesToolStripMenuItem";
             this.coleçõesToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.coleçõesToolStripMenuItem.Text = "Coleções";
@@ -100,6 +106,27 @@
             this.listagemToolStripMenuItem.Text = "Listagem";
             this.listagemToolStripMenuItem.Click += new System.EventHandler(this.listagemToolStripMenuItem_Click);
             // 
+            // filasToolStripMenuItem
+            // 
+            this.filasToolStripMenuItem.Name = "filasToolStripMenuItem";
+            this.filasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.filasToolStripMenuItem.Text = "Filas";
+            this.filasToolStripMenuItem.Click += new System.EventHandler(this.filasToolStripMenuItem_Click);
+            // 
+            // coleçõesQueue2ToolStripMenuItem
+            // 
+            this.coleçõesQueue2ToolStripMenuItem.Name = "coleçõesQueue2ToolStripMenuItem";
+            this.coleçõesQueue2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.coleçõesQueue2ToolStripMenuItem.Text = "Coleções Queue 2";
+            this.coleçõesQueue2ToolStripMenuItem.Click += new System.EventHandler(this.coleçõesQueue2ToolStripMenuItem_Click);
+            // 
+            // coleçõesStackToolStripMenuItem
+            // 
+            this.coleçõesStackToolStripMenuItem.Name = "coleçõesStackToolStripMenuItem";
+            this.coleçõesStackToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.coleçõesStackToolStripMenuItem.Text = "Coleções Stack";
+            this.coleçõesStackToolStripMenuItem.Click += new System.EventHandler(this.coleçõesStackToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -129,6 +156,9 @@
         private System.Windows.Forms.ToolStripMenuItem coleçõesArrayToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem classesListToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listagemToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem filasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem coleçõesQueue2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem coleçõesStackToolStripMenuItem;
     }
 }
 

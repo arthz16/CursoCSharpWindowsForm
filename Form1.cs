@@ -42,5 +42,20 @@ namespace CursoCSharpWindowsForm
         {
             CursoCSharpWindowsForm.Colecoes.Listagem.Executar();
         }
+
+        private void filasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CursoCSharpWindowsForm.Colecoes.ColecoesQueue.Executar();
+        }
+
+        private void coleçõesQueue2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CursoCSharpWindowsForm.Colecoes.ColecoesQueue2.Executar();
+        }
+
+        private void coleçõesStackToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CursoCSharpWindowsForm.Colecoes.ColecoesStack.Executar();
+        }
     }
 }
